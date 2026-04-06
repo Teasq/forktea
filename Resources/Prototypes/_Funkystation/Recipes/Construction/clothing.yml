@@ -1,0 +1,67 @@
+#Jamjar expansion - Tea(d.d.tea)
+
+- type: construction
+  name: security-issue jamjar glasses
+  id: ClothingEyesGlassesSecjar
+  graph: jamjarGlassesSec
+  startNode: start
+  targetNode: secjarGlasses
+  category: construction-category-clothing
+  description: These retro glasses remind you of 1984.
+  icon: { sprite: _Funkystation/Clothing/Eyes/Jamjars/secjar.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: medical-issue jamjar glasses
+  id: ClothingEyesGlassesMedjar
+  graph: jamjarGlassesMed
+  startNode: start
+  targetNode: medjarGlasses
+  category: construction-category-clothing
+  description: These retro glasses remind you of bodybagging rotting corpses.
+  icon: { sprite: _Funkystation/Clothing/Eyes/Jamjars/medjar.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: chemical analysis jamjar glasses
+  id: ClothingEyesGlassesChemjar
+  graph: jamjarGlassesChem
+  startNode: start
+  targetNode: chemjarGlasses
+  category: construction-category-clothing
+  description: These retro glasses remind you of breaking SOP by making explosives.
+  icon: { sprite: _Funkystation/Clothing/Eyes/Jamjars/chemjar.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: engineering jamgoggles
+  id: ClothingEyesGlassesJamgog
+  graph: jamjarGlassesEngi
+  startNode: start
+  targetNode: engijarGlasses
+  category: construction-category-clothing
+  description: These retro glasses remind you of setting the tesla loose.
+  icon: { sprite: _Funkystation/Clothing/Eyes/Jamjars/jamgog.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: sungar glasses
+  id: ClothingEyesGlassesSungar
+  graph: glassesSungar
+  startNode: start
+  targetNode: sungarGlasses
+  category: construction-category-clothing
+  description: Wearing this will most certainly lead to decapitation.
+  icon: { sprite: _Funkystation/Clothing/Eyes/sungar.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: cheap sungar glasses
+  id: ClothingEyesGlassesCSungar
+  graph: glassesCSungar
+  startNode: start
+  targetNode: sungarCGlasses
+  category: construction-category-clothing
+  description: Now with 99% less artificial intelligence.
+  icon: { sprite: _Funkystation/Clothing/Eyes/sungar.rsi, state: icon }
+  objectType: Item

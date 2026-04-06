@@ -3,6 +3,18 @@
 # SPDX-FileCopyrightText: 2024 Verm <32827189+Vermidia@users.noreply.github.com>
 # SPDX-License-Identifier: MIT
 
+#Eyes - Funky
+- type: loadout
+  id: MedicalChemistNormGlasses
+  equipment:
+    eyes: ClothingEyesGlassesChemical
+- type: loadout
+  id: MedicalChemistJamjarGlasses
+  equipment:
+    eyes: ClothingEyesGlassesChemjar
+
+#Jumpsuit
+
 - type: loadout
   id: ChemistJumpsuit
   equipment:

@@ -95,6 +95,14 @@
   - PurpleSurgeryCap
   - NurseHat
 
+- type: loadoutGroup #Funky
+  id: MedicalDoctorGlasses
+  name: loadout-group-medical-doctor-glasses
+  minLimit: 1
+  loadouts:
+  - MedicalNormGlasses
+  - MedicalJamjarGlasses
+
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
   name: loadout-group-medical-doctor-jumpsuit
@@ -145,6 +153,14 @@
 #  loadouts:
 
 # Chemist
+
+- type: loadoutGroup #Funky
+  id: MedicalChemistGlasses
+  name: loadout-group-medical-chemist-glasses
+  minLimit: 1
+  loadouts:
+  - MedicalChemistNormGlasses
+  - MedicalChemistJamjarGlasses
 
 - type: loadoutGroup
   id: ChemistJumpsuit

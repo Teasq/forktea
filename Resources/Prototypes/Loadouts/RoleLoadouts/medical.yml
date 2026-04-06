@@ -5,6 +5,7 @@
   groups:
   - GroupTankHarness
   - ChiefMedicalOfficerHead
+  - MedicalDoctorGlasses #Funky
   - MedicalMask
   - ChiefMedicalOfficerJumpsuit
   - MedicalBackpack
@@ -22,6 +23,7 @@
   groups:
   - GroupTankHarness
   - MedicalDoctorHead
+  - MedicalDoctorGlasses #Funky
   - MedicalMask
   - MedicalDoctorJumpsuit
   - MedicalBackpack
@@ -38,6 +40,7 @@
   id: JobMedicalIntern
   groups:
   - GroupTankHarness
+  - MedicalDoctorGlasses #Funky
   - MedicalInternJumpsuit
   - MedicalBackpack
   - Glasses
@@ -50,6 +53,7 @@
   id: JobChemist
   groups:
   - GroupTankHarness
+  - MedicalChemistGlasses #Funky
   - MedicalMask
   - ChemistJumpsuit
   - ChemistBackpack
@@ -66,6 +70,7 @@
   groups:
   - GroupTankHarness
   - ParamedicHead
+  - MedicalDoctorGlasses #Funky
   - MedicalMask
   - ParamedicJumpsuit
   - MedicalBackpack

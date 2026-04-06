@@ -124,6 +124,7 @@ loadout-group-station-engineer-backpack = Station Engineer backpack
 loadout-group-station-engineer-outerclothing = Station Engineer outer clothing
 loadout-group-station-engineer-shoes = Station Engineer shoes
 loadout-group-station-engineer-id = Station Engineer ID
+loadout-group-engineering-goggles = Engineering goggles
 
 loadout-group-atmospheric-technician-jumpsuit = Atmospheric Technician jumpsuit
 loadout-group-atmospheric-technician-backpack = Atmospheric Technician backpack
@@ -159,6 +160,7 @@ loadout-group-warden-jumpsuit = Warden jumpsuit
 loadout-group-warden-outerclothing = Warden outer clothing
 
 loadout-group-security-head = Security head
+loadout-group-security-glasses = Security glasses
 loadout-group-security-jumpsuit = Security jumpsuit
 loadout-group-security-backpack = Security backpack
 loadout-group-security-belt = Security Belt
@@ -184,6 +186,7 @@ loadout-group-chief-medical-officer-shoes = Chief Medical Officer shoes
 loadout-group-chief-medical-officer-neck = Chief Medical Officer neck
 
 loadout-group-medical-doctor-head = Medical Doctor head
+loadout-group-medical-doctor-glasses = Medical glasses
 loadout-group-medical-doctor-jumpsuit = Medical Doctor jumpsuit
 loadout-group-medical-doctor-outerclothing = Medical Doctor outer clothing
 loadout-group-medical-doctor-backpack = Medical Doctor backpack
@@ -192,6 +195,7 @@ loadout-group-medical-doctor-id = Medical Doctor ID
 
 loadout-group-medical-intern-jumpsuit = Medical intern jumpsuit
 
+loadout-group-medical-chemist-glasses = Chemist glasses
 loadout-group-chemist-jumpsuit = Chemist jumpsuit
 loadout-group-chemist-outerclothing = Chemist outer clothing
 loadout-group-chemist-backpack = Chemist backpack

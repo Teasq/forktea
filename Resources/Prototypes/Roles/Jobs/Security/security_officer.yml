@@ -61,7 +61,7 @@
 - type: startingGear
   id: SecurityOfficerGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
+#    eyes: ClothingEyesGlassesSecurity - Funky, is now loadout option
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58
   storage:

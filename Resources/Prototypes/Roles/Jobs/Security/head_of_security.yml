@@ -87,7 +87,7 @@
 - type: startingGear
   id: HoSGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
+#    eyes: ClothingEyesGlassesSecurity - Funky, is now loadout option
     id: HoSPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity

@@ -291,6 +291,7 @@
   groups:
   - GroupTankHarness
   - ChiefEngineerHead
+  - EngineeringGoggles #Funky
   - ChiefEngineerJumpsuit
   - StationEngineerBackpack
   - ChiefEngineerNeck
@@ -305,6 +306,7 @@
   id: JobTechnicalAssistant
   groups:
   - GroupTankHarness
+  - EngineeringGoggles #Funky
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
   - SurvivalExtended
@@ -317,6 +319,7 @@
   groups:
   - GroupTankHarness
   - StationEngineerHead
+  - EngineeringGoggles #Funky
   - StationEngineerJumpsuit
   - StationEngineerBackpack
   - StationEngineerOuterClothing
@@ -331,6 +334,7 @@
   id: JobAtmosphericTechnician
   groups:
   - GroupTankHarness
+  - EngineeringGoggles #Funky
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
@@ -393,6 +397,7 @@
   id: JobHeadOfSecurity
   groups:
   - HeadofSecurityHead
+  - SecurityGlasses #Funky
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
   - SecurityBackpack
@@ -408,6 +413,7 @@
   id: JobWarden
   groups:
   - WardenHead
+  - SecurityGlasses #Funky
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityBelt
@@ -422,6 +428,7 @@
   id: JobSecurityOfficer
   groups:
   - SecurityHead
+  - SecurityGlasses #Funky
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityOuterClothing
@@ -437,6 +444,7 @@
   id: JobDetective
   groups:
   - DetectiveHead
+  - SecurityGlasses #Funky
   - DetectiveNeck
   - DetectiveJumpsuit
   - SecurityBackpack
@@ -450,6 +458,7 @@
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
+  - SecurityGlasses #Funky
   - SecurityCadetJumpsuit
   - SecurityBackpack
   - SurvivalSecurity

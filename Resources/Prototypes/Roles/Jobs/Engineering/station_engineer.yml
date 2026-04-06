@@ -44,7 +44,7 @@
 - type: startingGear
   id: StationEngineerGear
   equipment:
-    eyes: ClothingEyesGlassesMeson
+  #  eyes: ClothingEyesGlassesMeson - Funky, is now loadout option
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
   #storage:

@@ -56,6 +56,9 @@
     damage:
       types:
         Blunt: 7
+  - type: Tag
+    tags:
+    - GarBase #Funky - jamjar crafting
 
 - type: entity
   parent: ClothingEyesBase
@@ -75,6 +78,9 @@
     damage:
       types:
         Blunt: 10
+  - type: Tag
+    tags:
+    - GarBase #Funky - jamjar crafting
 
 - type: entity
   parent: ClothingEyesBase
@@ -94,6 +100,9 @@
     damage:
       types:
         Blunt: 10
+  - type: Tag
+    tags:
+    - GarBase #Funky - jamjar crafting
 
 - type: entity
   parent: [ClothingEyesBase, BaseEngineeringContraband]
@@ -112,6 +121,7 @@
     tags:
     - PetWearable
     - WhitelistChameleon
+    - EngiVision
 
 - type: entity
   parent: ClothingEyesBase
@@ -158,6 +168,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+    - JamjarBase #Funky - jamjar crafting
 
 - type: entity
   parent: ClothingEyesBase
@@ -189,6 +200,7 @@
     - HamsterWearable
     - PetWearable
     - WhitelistChameleon
+    - CheapSunglasses #Funky - jamjarrening
   - type: IdentityBlocker
     coverage: EYES
 
@@ -310,6 +322,7 @@
       tags:
       - PetWearable
       - WhitelistChameleon
+      - ChemVision #Funky - jamjar crafting
 
 - type: entity
   parent: [ClothingEyesBase, BaseHighlyIllegalContraband]

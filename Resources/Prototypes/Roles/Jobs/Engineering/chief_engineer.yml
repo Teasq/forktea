@@ -71,7 +71,7 @@
   id: ChiefEngineerGear
   equipment:
     id: CEPDA
-    eyes: ClothingEyesGlassesMeson
+#    eyes: ClothingEyesGlassesMeson - Funky, is now loadout option
     ears: ClothingHeadsetCE
     belt: ClothingBeltUtilityEngineering
   storage:

@@ -126,6 +126,7 @@
     ClothingHandsGlovesColorOrange: 2
     ClothingHandsGlovesColorPurple: 2
     ClothingEyesGlassesCheapSunglasses: 3
+    ClothingEyesGlassesJamjar: 5 # Funky - jamjar crafting
     # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
