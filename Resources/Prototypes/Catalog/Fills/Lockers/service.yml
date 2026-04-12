@@ -174,7 +174,7 @@
     children:
     - id: ClothingHandsGlovesLeather
     - id: ClothingOuterApronBotanist
-    - id: ClothingHeadBandBotany
+    - id: ClothingHeadBandGreen
     - id: ChemistryBottleRobustHarvest
       prob: 0.3
     - id: ClothingBeltPlant
@@ -182,7 +182,7 @@
     - id: BoxMouthSwab
     - id: Dropper
     - id: HandLabeler
-    - id: ClothingUniformOveralls
+    - id: FuClothingUniformShirtPantstHydroponicsOveralls
     - id: ClothingHeadHatTrucker
       prob: 0.1
     - id: PlushieLizardJobBotanist
@@ -204,7 +204,7 @@
   id: FillLockerBotanistLoot
   table: !type:AllSelector
     children:
-    - id: ClothingUniformOveralls
+    - id: FuClothingUniformShirtPantstHydroponics
     - id: ClothingHeadHatTrucker
       prob: 0.3
     - id: GatfruitSeeds
