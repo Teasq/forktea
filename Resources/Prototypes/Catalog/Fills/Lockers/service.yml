@@ -174,7 +174,7 @@
     children:
     - id: ClothingHandsGlovesLeather
     - id: ClothingOuterApronBotanist
-    - id: ClothingHeadBandGreen
+    - id: ClothingHeadBandGreen # [Resprite] Rehydrating botany pt. 2!
     - id: ChemistryBottleRobustHarvest
       prob: 0.3
     - id: ClothingBeltPlant
@@ -182,7 +182,7 @@
     - id: BoxMouthSwab
     - id: Dropper
     - id: HandLabeler
-    - id: FuClothingUniformShirtPantstHydroponicsOveralls
+    - id: FuClothingUniformShirtPantstHydroponicsOveralls #Funky botany uniforms
     - id: ClothingHeadHatTrucker
       prob: 0.1
     - id: PlushieLizardJobBotanist
@@ -204,7 +204,7 @@
   id: FillLockerBotanistLoot
   table: !type:AllSelector
     children:
-    - id: FuClothingUniformShirtPantstHydroponics
+    - id: FuClothingUniformShirtPantstHydroponics #Funky botany uniforms
     - id: ClothingHeadHatTrucker
       prob: 0.3
     - id: GatfruitSeeds
