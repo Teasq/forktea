@@ -1,0 +1,10 @@
+# Eyes - Funkystation
+- type: loadout
+  id: SecurityNormGlasses
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+
+- type: loadout
+  id: SecurityJamjarGlasses
+  equipment:
+    eyes: ClothingEyesGlassesSecjar

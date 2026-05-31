@@ -1,0 +1,9 @@
+# Eyes - Funkystation
+- type: loadout
+  id: MedicalNormGlasses
+  equipment:
+    eyes: ClothingEyesHudMedical
+- type: loadout
+  id: MedicalJamjarGlasses
+  equipment:
+    eyes: ClothingEyesGlassesMedjar
