@@ -55,7 +55,7 @@
   id: BotanistChameleonOutfit
   job: Botanist
   equipment:
-    head: ClothingHeadBandBotany
+    head: ClothingHeadBandGreen
     eyes: ClothingEyesGlassesCheapSunglasses
     mask: ClothingMaskBreath
     neck: ClothingNeckScarfStripedGreen
