@@ -1,15 +1,14 @@
-// SPDX-FileCopyrightText: 2021 Flipp Syder <76629141+vulppine@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023, 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 c4llv07e <38111072+c4llv07e@users.noreply.github.com>
-// SPDX-License-Identifier: MIT
-
+using Robust.Shared.Audio; // Funky change
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes; // Funky change
 using Robust.Shared.Serialization;
+using Content.Shared.Actions; // Funky change
 
 namespace Content.Shared.SubFloor;
+
+public sealed partial class ToggleTrayScannerEvent : InstantActionEvent
+{
+}
 
 [RegisterComponent, NetworkedComponent]
 public sealed partial class TrayScannerComponent : Component
@@ -25,17 +24,40 @@ public sealed partial class TrayScannerComponent : Component
     /// </summary>
     [DataField]
     public float Range = 4f;
+
+    // Funky change
+    /// <summary>
+    ///     The action prototype to give to the user when equipped.
+    /// </summary>
+    [DataField]
+    public EntProtoId? ToggleAction;
+
+    // Funky change
+    /// <summary>
+    ///     The spawned action entity linked to this scanner.
+    /// </summary>
+    [DataField, NonSerialized]
+    public EntityUid? ToggleActionEntity;
+
+    // Funky change
+    /// <summary>
+    ///     Sound played when the scanner is turned on.
+    /// </summary>
+    [DataField]
+    public SoundSpecifier? SoundOn;
+
+    // Funky change
+    /// <summary>
+    ///     Sound played when the scanner is turned off.
+    /// </summary>
+    [DataField]
+    public SoundSpecifier? SoundOff;
 }
 
+// Funky change
 [Serializable, NetSerializable]
-public sealed class TrayScannerState : ComponentState
+public sealed class TrayScannerState(bool enabled, float range) : ComponentState
 {
-    public bool Enabled;
-    public float Range;
-
-    public TrayScannerState(bool enabled, float range)
-    {
-        Enabled = enabled;
-        Range = range;
-    }
+    public bool Enabled = enabled;
+    public float Range = range;
 }
