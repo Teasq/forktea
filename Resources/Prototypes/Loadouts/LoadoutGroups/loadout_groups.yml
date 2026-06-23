@@ -1212,11 +1212,11 @@
   loadouts:
   - FuSecurityService
   - FuSecurityDressPants
-  - FuSecurityDressPantsSenior
+ # - FuSecurityDressPantsSenior No senior gear
   - FuSecurityDressSkirt
   - FuSecurityDressSkirtStockings
-  - FuSecurityDressSkirtSenior
-  - FuSecurityDressSkirtSeniorStockings
+ # - FuSecurityDressSkirtSenior No senior gear
+ # - FuSecurityDressSkirtSeniorStockings No senior gear
   - FuSecurityMessPants
   - FuSecurityMessSkirt
   - FuSecurityMessSkirtStockings
@@ -1260,11 +1260,11 @@
   loadouts:
   - FuSecurityService
   - FuSecurityDressPants
-  - FuSecurityDressPantsSenior
+ # - FuSecurityDressPantsSenior
   - FuSecurityDressSkirt
   - FuSecurityDressSkirtStockings
-  - FuSecurityDressSkirtSenior
-  - FuSecurityDressSkirtSeniorStockings
+ # - FuSecurityDressSkirtSenior
+ # - FuSecurityDressSkirtSeniorStockings
   - FuSecurityMessPants
   - FuSecurityMessSkirt
   - FuSecurityMessSkirtStockings

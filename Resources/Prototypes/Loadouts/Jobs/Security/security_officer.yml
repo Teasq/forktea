@@ -100,11 +100,12 @@
     jumpsuit: FuClothingUniformSecDressPants
   groupBy: "dresspants"
 
-- type: loadout
-  id: FuSecurityDressPantsSenior
-  equipment:
-    jumpsuit: FuClothingUniformSecDressPantsSenior
-  groupBy: "dresspants"
+# No senior gear
+#- type: loadout
+#  id: FuSecurityDressPantsSenior
+#  equipment:
+#    jumpsuit: FuClothingUniformSecDressPantsSenior
+#  groupBy: "dresspants"
 
 - type: loadout
   id: FuSecurityDressSkirt
@@ -118,17 +119,18 @@
     jumpsuit: FuClothingUniformSecDressSkirtStockings
   groupBy: "dressskirt"
 
-- type: loadout
-  id: FuSecurityDressSkirtSenior
-  equipment:
-    jumpsuit: FuClothingUniformSecDressSkirtSenior
-  groupBy: "dressskirt"
+# No senior uniforms
+#- type: loadout
+#  id: FuSecurityDressSkirtSenior
+#  equipment:
+#    jumpsuit: FuClothingUniformSecDressSkirtSenior
+#  groupBy: "dressskirt"
 
-- type: loadout
-  id: FuSecurityDressSkirtSeniorStockings
-  equipment:
-    jumpsuit: FuClothingUniformSecDressSkirtSeniorStockings
-  groupBy: "dressskirt"
+#- type: loadout
+#  id: FuSecurityDressSkirtSeniorStockings
+#  equipment:
+#   jumpsuit: FuClothingUniformSecDressSkirtSeniorStockings
+# groupBy: "dressskirt"
 
 - type: loadout
   id: FuSecurityMessPants
