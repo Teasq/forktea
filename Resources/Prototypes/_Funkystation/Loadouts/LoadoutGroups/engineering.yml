@@ -26,7 +26,7 @@
 
 - type: loadoutGroup
   id: FuTechnicalAssistantHead
-  name: fu-loadout-group-techinical-assistant-head
+  name: fu-loadout-group-technical-assistant-head
   minLimit: 1
   loadouts:
   - StationEngineerHardhatYellow
