@@ -11,6 +11,7 @@
 - type: loadoutGroup
   id: FuMedicalDoctorOuterclothing
   name: fu-loadout-group-chemist-outerclothing
+  minLimit: 0
   loadouts:
   - FuMedicalDoctorLabcoat
   - FuMedicalDoctorWinterLabcoat
@@ -32,6 +33,7 @@
 - type: loadoutGroup
   id: FuChemistOuterclothing
   name: fu-loadout-group-chemist-outerclothing
+  minLimit: 0
   loadouts:
   - FuChemistLabcoat
   - FuChemistWinterLabcoat
@@ -47,6 +49,7 @@
 - type: loadoutGroup
   id: FuChemistGloves
   name: fu-loadout-group-chemist-gloves
+  minLimit: 0
   loadouts:
   - FuChemrubberGloves
 
@@ -68,6 +71,7 @@
 - type: loadoutGroup
   id: FuCmoOuterclothing
   name: fu-loadout-group-cmo-outerclothing
+  minLimit: 0
   loadouts:
   - FuCmoLabcoat
   - FuCmoWinterLabcoat
