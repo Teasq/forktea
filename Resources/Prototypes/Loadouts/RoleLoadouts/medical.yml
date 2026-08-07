@@ -11,10 +11,11 @@
   - FuCmoOuterclothing # funky - previously ChiefMedicalOfficerOuterClothing
 #  - ChiefMedicalOfficerNeck funky - no more capes for non-militant command
   - ChiefMedicalOfficerShoes
+  - Pager
   - Glasses
   - SurvivalMedical
   - Trinkets
-#  - ChiefMedicalOfficerJobTrinkets
+  - ChiefMedicalOfficerJobTrinkets # Funky uncommented
   - GroupSpeciesBreathToolMedical
   - GroupBreathToolDecapoid # MACRO: Decapoid
 
@@ -29,6 +30,7 @@
   - FuMedicalDoctorOuterclothing # funky - previously MedicalDoctorOuterClothing
   - MedicalShoes
   - MedicalDoctorPDA
+  - Pager
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -43,6 +45,7 @@
   - FuMedicalInternHead # funky - new
   - FuMedInternUniform # funky - previously MedicalInternJumpsuit
   - MedicalBackpack
+  - Pager
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -60,6 +63,7 @@
   - ChemistBackpack
   - FuChemistOuterclothing # funky - previously ChemistOuterClothing
   - FuChemistBoots # funky - previously MedicalShoes
+  - Pager
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -77,6 +81,7 @@
   - MedicalBackpack
   - ParamedicOuterClothing
   - ParamedicShoes
+  - Pager
   - Glasses
   - SurvivalMedical
   - Trinkets
