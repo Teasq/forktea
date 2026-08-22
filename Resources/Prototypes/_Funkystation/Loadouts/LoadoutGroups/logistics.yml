@@ -1,0 +1,12 @@
+- type: loadoutGroup
+  id: FuCargoTechnicianUniform
+  name: fu-loadout-group-cargo-technician-jumpsuit
+  loadouts:
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianJumpskirt
+
+- type: loadoutGroup
+  id: FuCourierUniform
+  name: fu-loadout-group-courier-jumpsuit
+  loadouts:
+  - FuCourierJumpsuit

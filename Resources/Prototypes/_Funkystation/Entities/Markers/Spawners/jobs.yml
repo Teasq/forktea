@@ -93,3 +93,15 @@
     layers:
     - state: green
     - state: brigmedic
+
+- type: entity
+  id: FuSpawnPointCourier
+  parent: SpawnPointJobBase
+  name: courier
+  components:
+  - type: SpawnPoint
+    job_id: FuCourier
+  - type: Sprite
+    layers:
+    - state: green
+    - state: cargo_tech

@@ -1,0 +1,25 @@
+## jumpsuits
+
+# cargo tech
+- type: entity
+  parent: ClothingUniformBase
+  id: FuClothingUniformLogiCT
+  name: cargo technician jumpsuit
+  description: A medical dress made of synthetic polymers. On the arms are anti-gas detection armbands, although newer uniforms no longer come with functional ones.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Medical/Dress/med.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Medical/Dress/med.rsi
+
+# courier
+- type: entity
+  parent: ClothingUniformBase
+  id: FuClothingUniformLogiCourier
+  name: courier jumpsuit
+  description: A medical dress made of synthetic polymers. On the arms are anti-gas detection armbands, although newer uniforms no longer come with functional ones.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Logistics/Jumpsuit/courier.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Logistics/Jumpsuit/courier.rsi

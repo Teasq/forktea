@@ -618,3 +618,21 @@
   groups:
   - GroupEVATank
   - GroupBreathToolDecapoid # MACRO: Decapoid
+
+- type: roleLoadout
+  id: FuJobCourier
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - FuCourierUniform
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - CargoTechnicianID
+  - Pager
+  - Glasses
+  - Survival
+  - Trinkets
+  #- CargoTechnicianJobTrinkets
+  - GroupSpeciesBreathTool
+  - GroupBreathToolDecapoid # MACRO: Decapoid

@@ -1,0 +1,37 @@
+- type: job
+  id: FuCourier
+  name: job-name-courier
+  description: job-description-courier
+  playTimeTracker: FuJobCourier
+  startingGear: FuCourierGear
+  icon: "JobIconCourier"
+  supervisors: job-supervisors-qm
+  access:
+  - Cargo
+  - Maintenance
+  extendedAccess:
+  - Salvage
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard
+
+- type: startingGear
+  id: FuCourierGear
+  equipment:
+    ears: ClothingHeadsetCargo
+    pocket1: AppraisalTool
+    #storage:
+    #back:
+    #- Stuff
+
+- type: chameleonOutfit
+  id: FuCourierChameleonOutfit
+  job: FuCourier
+  equipment:
+    head: ClothingHeadHatCargosoft
+    eyes: ClothingEyesGlassesCheapSunglasses
+    mask: ClothingMaskBreath
+    outerClothing: ClothingOuterWinterCargo
+    neck: ClothingNeckScarfStripedBrown
+    gloves: ClothingHandsGlovesFingerless

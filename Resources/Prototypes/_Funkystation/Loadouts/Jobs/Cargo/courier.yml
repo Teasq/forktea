@@ -1,0 +1,7 @@
+# uniforms
+
+- type: loadout
+  id: FuCourierJumpsuit
+  equipment:
+    jumpsuit: FuClothingUniformLogiCourier
+  groupBy: "jumpsuit"
